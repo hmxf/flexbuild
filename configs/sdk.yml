@@ -373,7 +373,7 @@ repo:
 
 # graphics component repositories
   wayland:
-    url:  https://github.com/wayland-project/wayland.git
+    url:  https://gitlab.freedesktop.org/wayland/wayland.git
     tag:  1.18.0
 
   wayland_protocols:
@@ -399,7 +399,7 @@ repo:
     url:  https://www.nxp.com/lgfiles/NMG/MAD/YOCTO/imx-gpu-g2d-6.4.3.p2.2d-aarch64.bin
 
   xserver:
-    url:  https://github.com/freedesktop/xorg-xserver.git
+    url:  https://gitlab.freedesktop.org/xorg/xserver.git
     tag:  xorg-server-1.20.9
 
 
