@@ -132,8 +132,8 @@ REPO_TAG_EXCLUDE: " iperf opencv caffe "
 REPO_BRANCH_EXCLUDE: " "
 
 # user can customize the default path of components source and build output path
-DEFAULT_OUT_PATH: $FBDIR/build
-DEFAULT_PKGDIR: $FBDIR/components
+DEFAULT_OUT_PATH: $FBDIR/build_${DISTRIB_VERSION}
+DEFAULT_PKGDIR: $FBDIR/components_${DISTRIB_VERSION}
 
 
 # default Layerscape machine list for CI auto build
@@ -455,7 +455,7 @@ repo:
     url:  https://github.com/NXP/imx-vpuwrap.git
 
   cheese:
-    url:  https://gitlab.gnome.org/GNOME/cheese.git
+    url:  https://github.com/GNOME/cheese.git
     tag:  3.34.0
 
 
@@ -486,7 +486,7 @@ repo:
 
 # connectivity component repositories
   nxp_wlan_bt:
-    url:  git://github.com/nxp-imx/mwifiex.git
+    url:  https://github.com/nxp-imx/mwifiex.git
 
 
 # eIQ AI/ML component repositories

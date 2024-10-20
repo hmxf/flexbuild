@@ -1,6 +1,6 @@
 # Build products
-components
-build
+components_sdk2110*
+build_sdk2110*
 logs
 uuu
 configs/.sdk.cfg
